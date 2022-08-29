@@ -169,7 +169,7 @@ const users = [
 console.log(`server is running on port ${PORT}`);
 app.use(
     cors({
-      origin: 'http://127.0.0.1:3000',
+      origin: 'https://omarbalbaa.github.io',
     })
   );
 app.get("/", (req, res) => {
